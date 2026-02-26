@@ -1,32 +1,31 @@
 # 🕹️ microcore-4bits
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Hardware-Verilog-orange?style=for-the-badge&logo=cpu" alt="Verilog">
-  <img src="https://img.shields.io/badge/Tools-Quartus_Prime-blue?style=for-the-badge" alt="Quartus">
-  <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-green?style=for-the-badge" alt="Status">
-</div>
+## 📝 About the Project
+**microcore-4bits** is a computer architecture project focused on developing a functional 4-bit processor. This repository contains the Hardware Description Language (HDL) code required to implement the fundamental modules of a microprocessor.
 
-## 📝 Sobre o Projeto
-O **microcore-4bits** é um projeto de arquitetura de computadores focado no desenvolvimento de um processador funcional de 4 bits. Este repositório contém a descrição de hardware (HDL) necessária para implementar os módulos fundamentais de um microprocessador.
+This project is part of my studies at **UNIFEI** (Federal University of Itajubá).
 
-Este projeto faz parte dos meus estudos na **UNIFEI** (Universidade Federal de Itajubá).
+## 🛠️ Hardware Structure
+The processor consists of the following core modules:
+* **ALU (Arithmetic Logic Unit):** Responsible for calculation operations.
+* **Registers:** Temporary data storage.
+* **Program Counter (PC):** Manages the instruction flow.
+* **ROM Memory:** Stores the program instructions.
+* **FSM (Finite State Machine):** Central control for the instruction cycle.
 
-## 🛠️ Estrutura do Hardware
-O processador é composto pelos seguintes módulos principais:
-* **ULA (Unidade Lógica e Aritmética):** Responsável pelas operações de cálculo.
-* **Registradores:** Armazenamento temporário de dados.
-* **Contador de Programa (PC):** Gerenciamento do fluxo de instruções.
-* **Memória ROM:** Armazenamento das instruções do programa.
-* **FSM (Máquina de Estados Finitos):** Controle central do ciclo de instrução.
+## 📂 Core Files
+* `top_module.v`: Main module connecting all components.
+* `ula_4bit_sync.v`: Implementation of the synchronized ALU.
+* `instruction_register.v`: Register for storing the current instruction.
+* `fsm.v`: Control logic for the processor.
 
-## 📂 Arquivos Principais
-* `top_module.v`: Módulo principal que conecta todos os componentes.
-* `ula_4bit_sync.v`: Implementação da ULA sincronizada.
-* `instruction_register.v`: Registrador para armazenamento da instrução atual.
-* `fsm.v`: Lógica de controle do processador.
-
-## 🚀 Como Visualizar
-Para abrir o projeto, você precisará do **Intel Quartus Prime**:
-1. Clone o repositório:
+## 🚀 How to Run
+To open and simulate this project, you will need **Intel Quartus Prime**:
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/microcore-4bits.git](https://github.com/SEU-USUARIO/microcore-4bits.git)
+   git clone [https://github.com/alexduque/microcore-4bits.git](https://github.com/alexduque/microcore-4bits.git)
+
+## 👥 Authors
+* **Alex Alvarez Duque** - [GitHub](https://github.com/alexduque)
+
+* **Pedro Lucas Pereira Ferreira** - [GitHub](https://github.com/pedrolucas)
