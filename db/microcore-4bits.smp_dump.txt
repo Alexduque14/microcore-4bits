@@ -1,0 +1,10 @@
+
+State Machine - |top_module|fsm:state_machine|state
+Name state.WB_R0 state.Logica state.WB_Rd state.Arit state.LDR state.PC state.Fetch 
+state.Fetch 0 0 0 0 0 0 0 
+state.PC 0 0 0 0 0 1 1 
+state.LDR 0 0 0 0 1 0 1 
+state.Arit 0 0 0 1 0 0 1 
+state.WB_Rd 0 0 1 0 0 0 1 
+state.Logica 0 1 0 0 0 0 1 
+state.WB_R0 1 0 0 0 0 0 1 

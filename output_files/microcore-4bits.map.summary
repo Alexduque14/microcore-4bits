@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Dec  9 16:58:46 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : microcore-4bits
+Top-level Entity Name : top_module
+Family : MAX 10
+Total logic elements : 150
+    Total combinational functions : 137
+    Dedicated logic registers : 46
+Total registers : 46
+Total pins : 44
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
